@@ -1,0 +1,112 @@
+.blog-card {
+  display: flex;
+  margin: 1rem auto;
+  box-shadow: 0 3px 7px -1px rgba(#000, 0.1);
+  margin-bottom: 1.6%;
+  background-color: white;
+  line-height: 1.4;
+  font-family: sans-serif;
+  border-radius: 5px;
+  height: 100%;
+  z-index: 0;
+  box-shadow:5px 5px rgba(0, 0, 0, 0.313);
+}
+.blog-card:hover .photo {
+  transform: scale(1.1);
+  transition: all;
+  transition-duration: 300ms;
+  border-radius: 0.375rem;
+}
+.meta {
+  position: relative;
+  z-index: 0;
+  height: 200px;
+  flex-basis: 33.33%;
+}
+.photo {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.details,
+details ul {
+  margin: auto;
+  padding: 0;
+  list-style: none;
+}
+.details ul li {
+  display: inline-block;
+}
+.details ul li .auther:before {
+  font-family: sans-serif;
+  margin-right: 10px;
+  content: "\f007";
+}
+.details ul li .date:before {
+  font-family: sans-serif;
+  margin-right: 10px;
+  content: "\f133";
+}
+
+.blogDescription {
+  flex-basis: 66.66%;
+  position: relative;
+  z-index: 1;
+}
+.title {
+  font-family: sans-serif;
+  line-height: 1;
+  /* margin: 0 auto; */
+  font-size: 1.6rem;
+  font-weight: bold;
+  padding-top: 0.5rem;
+  max-height: 40px;
+  width: 400px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.blogCategory {
+  margin: 0.3rem;
+  background-color: black;
+  color: white;
+  padding: 0.375rem;
+  border-radius: 0.3rem;
+}
+.shortDescription {
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding-top: 0.5rem;
+  max-height: 30px;
+  width: 500px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media screen and (max-width: 550px) {
+  .title {
+    width: 180px;
+    font-size: 1.4rem;
+  }
+  .shortDescription {
+    max-height: 25px;
+    font-size: 1rem;
+    width: 150px;
+  }
+}
+@media screen and (max-width: 780px) {
+  .title {
+    width: 120px;
+    font-size: 1.4rem;
+  }
+  .shortDescription {
+    max-height: 25px;
+    font-size: 1rem;
+    /* width: 100px; */
+  }
+}

@@ -1,0 +1,22 @@
+
+.userForm{
+    display: flex;
+    flex-direction: column;
+}
+.label{
+    font-size: 1.2rem;
+    font-weight: bold;   
+}
+.userSection{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 300px;
+}
+.userInput{
+    border-bottom: 2px solid black;
+    margin: 0.75rem 0 0.75rem;
+}
+.userInput:focus{
+    outline: none;
+}

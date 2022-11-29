@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Work+Sans&display=swap");
+.heading {
+  font-family: "Dancing Script", cursive;
+  font-size: 3rem;
+  color: whitesmoke;
+}
+.loginForm {
+  color: whitesmoke;
+  padding-top: 1rem;
+  /* margin-top: 1rem; */
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  position: relative;
+}
+.form .content {
+  display: flex;
+  flex-direction: column;
+}
+.content .label {
+  font-size: 1.3rem;
+  padding-bottom: 8px;
+}
+.content .input {
+  border: white;
+  margin-bottom: 8px;
+  padding: 5px;
+  border-radius: 6px;
+  color: black;
+}
+
+.content .input:focus {
+  outline: none;
+}
+
+.form .btn {
+  margin-top: 20px;
+  margin-left: 110px;
+  background-color: gray;
+  font-family: "Work Sans", sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: black;
+}
+
+.form .btn:hover {
+  transform: scale(1.2);
+  transition: all;
+  transition-duration: 300ms;
+}
+.linkBtn {
+  font-weight: bold;
+  font-family: "Work Sans", sans-serif;
+  font-size: 20px;
+}
+.linkBtn:hover {
+  transform: scale(1.2);
+  transition: all;
+  transition-duration: 300ms;
+}

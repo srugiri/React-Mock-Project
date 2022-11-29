@@ -1,0 +1,46 @@
+.blogForm {
+  margin: 2.5rem;
+  height: 100%;
+  width: 100%;
+  /* border: 2px solid black; */
+  padding: 1.25rem;
+  border-radius: 0.375rem;
+}
+.blogTitleInput {
+  border-bottom: 2px solid black;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  background-color: inherit;
+}
+.titleInput:focus {
+  outline: none;
+}
+.blogSelect {
+  border: 2px solid black;
+  padding: 0.25rem 0.5rem 0.25rem;
+  margin: 0.5rem;
+  border-radius: 0.375rem;
+  width: 480px;
+}
+.blogDes {
+  border: 2px solid black;
+  border-radius: 0.375rem;
+}
+.select{
+  padding-top: 1.2rem;
+  width: 100%;
+}
+
+@media screen and (max-width:550px) {
+    .blogForm{
+      margin: 0;
+      width: 350px;
+    }
+    .blogDes{
+      width: 100%;
+      max-width: 540px;
+    }
+    .blogSelect{
+      width: 330px;
+    }
+}

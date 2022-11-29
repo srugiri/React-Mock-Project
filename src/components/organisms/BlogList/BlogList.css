@@ -1,0 +1,84 @@
+.blogList {
+  /* background-color: rgb(211, 211, 211); */
+  height: 100%;
+  width: 100%;
+}
+.mainBlog {
+  position: relative;
+  font-family: sans-serif, serif;
+  display: flex;
+  /* background-image: url("../../../../Images/blog-list.jpeg");
+  background-size: cover; */
+  /* background-color: rgb(211, 211, 211); */
+  height: 100%;
+}
+.blogs {
+  padding: 1.25rem;
+  flex-basis: 66.66%;
+}
+.description {
+  flex-basis: 33.3333%;
+  margin-left: 2rem;
+  margin-top: 1.75rem;
+  height: 2.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.availability {
+  position: fixed;
+  top: 10rem;
+  left: 5rem;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+.search {
+  border-width: 2px;
+  border-color: rgb(0 0 0);
+  border-radius: 0.375rem;
+  width: 100%;
+}
+.search:focus {
+  outline: none;
+}
+.category {
+  border-width: 1px;
+  width: fit-content;
+  height: 2.75rem;
+  border-radius: 1.5rem;
+  border-color: #706f6f;
+  transition-duration: 300ms;
+  transition: all;
+  margin-right: 1rem;
+}
+.category:hover {
+  transform: translateY(-0.25rem);
+}
+.myBlogs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 33.33%;
+  margin-top: 2.3rem;
+  margin-left: 2rem;
+  position: relative;
+}
+.myBlogs .user {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5rem;
+  background-color: white;
+  opacity: 0.85;
+  border-radius: 0.375rem;
+}
+.paginate {
+  background-color: rgb(211, 211, 211);
+  width: 100%;
+  padding: 6px;
+  padding-bottom: 0.4rem;
+  /* position: absolute; */
+  /* top: 72rem; */
+}

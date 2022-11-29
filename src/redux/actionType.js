@@ -1,0 +1,26 @@
+export const GET_ALL_BLOGS = "GET_ALL_BLOGS";
+export const STORE_ALL_BLOGS = "STORE_ALL_BLOGS";
+
+export const GET_MY_BLOGS = "GET_MY_BLOGS";
+export const STORE_MY_BLOGS = "STORE_MY_BLOGS";
+
+export const GET_BLOG_COMMENTS = "GET_BLOG_COMMENTS";
+export const STORE_BLOG_COMMENTS = "STORE_BLOG_COMMENTS";
+
+export const GET_BLOG = "GET_BLOG";
+export const STORE_BLOG = "STORE_BLOG";
+
+export const GET_USERS = "GET_USERS";
+export const STORE_USERS = "STORE_USERS";
+
+export const GET_CATEGORIES = "GET_CATEGORIES";
+export const STORE_CATEGORIES = "STORE_CATEGORIES";
+
+export const GET_CATEGORY_BLOGS = "GET_CATEGORY_BLOGS";
+export const STORE_CATEGORY_BLOGS = "STORE_CATEGORY_BLOGS";
+
+export const GET_SEARCH_BLOGS = "SET_SEARCH_BLOGS";
+export const STORE_SEARCH_BLOGS = "STORE_SEARCH_BLOGS";
+
+export const GET_USER = "GET_USER";
+export const STORE_USER = "STORE_USER";

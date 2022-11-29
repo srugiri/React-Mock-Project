@@ -1,0 +1,11 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 150vh;
+  width: 100%;
+  padding-top: 5rem;
+  background-image: url("../../../../Images/blog.jpeg");
+  background-size: cover;
+}

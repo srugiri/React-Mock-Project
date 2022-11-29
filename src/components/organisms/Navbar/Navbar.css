@@ -1,0 +1,31 @@
+.navbar {
+  background-color: #000000;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  border-radius: 4px;
+  width: 100%;
+  position: relative;
+  font-family: "Hind", sans-serif;
+  padding: 6px;
+}
+.navbar .menu {
+  display: flex;
+  align-items: center;
+}
+.list {
+  display: flex;
+}
+.link:hover {
+  background-color: rgba(220, 220, 220, 0.354);
+  transform: scale(1.1);
+  transition: all;
+  transition-duration: 300ms;
+  border-radius: 6px;
+}
+
+@media only screen and (max-width: 375px) {
+  .navbar {
+    width: 100%;
+  }
+}
